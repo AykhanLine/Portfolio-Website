@@ -1,0 +1,159 @@
+@media(max-width:576px){
+    #header{
+        .left{
+            .logo-cat{
+                display: none;
+            }
+        }
+        .middle{
+            display: none;
+        }
+        .right{
+            .search, .btn-free{
+                display: none;
+            }
+        }
+        .fake-header{
+            .big-bar{
+                display: none;
+            }
+            .right-bar{
+                width: 100%;
+            }
+        }
+    }
+    .showing{
+        .long-box{
+            .right-icon{
+               select{
+                   display: none;
+               }
+            }
+        }
+    }
+    .showing{
+        .long-box{
+            height: 100%;
+           
+            .right-icon{
+                justify-content: center;
+            }
+        }
+    }
+
+    
+.two-box{
+    .book-box{
+        .r-box{
+            img{
+                display: none;
+            }
+        }
+        
+    }
+    .book-box-2{
+        .r-box{
+            img{
+                display: none;
+            }
+        }
+        
+    }
+}
+}
+
+@media(min-width:576px) and (max-width:768px){
+   #header{
+    .right{
+        .btn-free{
+            display: block;
+        }
+        .search{
+            display: none;
+        }
+
+    }
+
+    .fake-header{
+        .big-bar{
+            width: 40%;
+        }
+        .right-bar{
+            width: 60%;
+        }
+    }
+    .middle{
+        display: none;
+    }
+    .left{
+        .logo-cat{
+            display: none;
+        }
+    }
+
+   }
+}
+@media(min-width:768px) and (max-width:992px){
+   #header{
+    .right{
+        .search, .btn-free, .bar{
+            display: block;
+        }
+    }
+    .left{
+        .logo-cat{
+            display: none;
+        }
+    }
+    .middle{
+        display: none;
+    }
+
+    .fake-header{
+        .big-bar{
+            width: 50%;
+        }
+        .right-bar{
+            width: 50%;
+        }
+    }
+   }
+}
+@media(min-width:992px) and (max-width:1200px){
+    #header{
+        .left{
+            .logo-cat{
+                display: block;
+            }
+        }
+        .middle{
+            display: none;
+        }
+        .right{
+            .search, .btn-free, .bar{
+                display: block;
+            }
+        }
+    }
+}
+@media(min-width:1200px) and (max-width:2000px){
+    #header{
+        .left{
+            display: block;
+        }
+        .middle{
+            display: block;
+        }
+        .right{
+            .search, .btn-free{
+                display: block;
+            }
+            .bar{
+                display: none;
+            }
+        }
+
+    }
+}
+
+
